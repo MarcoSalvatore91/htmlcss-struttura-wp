@@ -38,21 +38,24 @@ header {
 }
 
 .head-lightblue {
-    float: left;
     height: 200px;
     background-color: rgb(173, 216, 230);
 }
 
 .side-lightblue {
     float: left;
-    height: 400px;
+    height: 360px;
     background-color: rgb(173, 216, 230);
+    width: calc(25% - 40px);
+    margin: 20px 20px 0 20px;
 }
 
 .main-lightblue {
     float: left;
-    height: 400px;
+    height: 360px;
     background-color: rgb(173, 216, 230);
+    width: 50%;
+    margin-top: 20px;
 }
 
 footer {
