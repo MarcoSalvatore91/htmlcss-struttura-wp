@@ -12,16 +12,24 @@ body {
     width: 1200px;
 }
 
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
 /* Content */
 
 header {
     height: 200px;
     background-color: rgb(238,130,238);
+    margin-bottom: 30px;
 }
 
 .bg-yellow {
     height: 500px;
     background-color: goldenrod;
+    margin-bottom: 30px;
 }
 
 .bg-blue {
@@ -30,21 +38,25 @@ header {
 }
 
 .head-lightblue {
+    float: left;
     height: 200px;
     background-color: rgb(173, 216, 230);
 }
 
 .side-lightblue {
+    float: left;
     height: 400px;
     background-color: rgb(173, 216, 230);
 }
 
 .main-lightblue {
+    float: left;
     height: 400px;
     background-color: rgb(173, 216, 230);
 }
 
 footer {
+    margin-top: 20px;
     height: 100px;
     background-color: rgb(139, 0, 139);
 }
