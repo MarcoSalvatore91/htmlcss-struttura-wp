@@ -33,29 +33,29 @@ header {
 }
 
 .bg-blue {
-    height: 600px;
+    min-height: 600px;
     background-color: rgb(30, 144, 255);
 }
 
 .head-lightblue {
     height: 200px;
     background-color: rgb(173, 216, 230);
+    margin-bottom: 20px;
 }
 
 .side-lightblue {
     float: left;
-    height: 360px;
+    height: 400px;
     background-color: rgb(173, 216, 230);
-    width: calc(25% - 40px);
-    margin: 20px 20px 0 20px;
+    width: calc(25% - 20px);
 }
 
 .main-lightblue {
     float: left;
-    height: 360px;
+    height: 400px;
     background-color: rgb(173, 216, 230);
     width: 50%;
-    margin-top: 20px;
+    margin: 0 20px 20px 20px;
 }
 
 footer {
